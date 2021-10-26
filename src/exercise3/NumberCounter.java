@@ -9,10 +9,11 @@ public class NumberCounter {
         double average = 0;
         int positiveNumbers = 0;
         int negativeNumbers = 0;
-        int number = input.nextInt();
+        int number= input.nextInt();
 
-        while (number!=0) {
-            number = input.nextInt();
+        while (number != 0) {
+
+
             if (number > 0){
                 positiveNumbers++;
             } else if (number < 0) {
@@ -20,6 +21,8 @@ public class NumberCounter {
             }
             sum = number + sum;
             average =  sum /(double) (positiveNumbers + negativeNumbers);
+            number = input.nextInt();
+
 
         }
 
