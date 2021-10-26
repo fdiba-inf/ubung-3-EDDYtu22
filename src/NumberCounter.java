@@ -30,13 +30,3 @@ public class NumberCounter {
 
     }
 }
-/*do {
-            number = input.nextInt();
-            if (number > 0){
-                positiveNumbers++;
-            } else if (number < 0) {
-                negativeNumbers++;
-            }
-            sum = number + sum;
-            average =  sum /(double) (positiveNumbers + negativeNumbers);
-        } while (number!=0);*/
