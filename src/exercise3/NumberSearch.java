@@ -8,8 +8,9 @@ public class NumberSearch {
             if (number%5==0 && number%6==0) {
                 System.out.print(number + " ");
                 counter++;
-                if (counter%10==0) {
-                    System.out.println();
+                if (counter==10) {
+                    System.out.println(number);
+                    counter=0;
                 }
             }
         }
