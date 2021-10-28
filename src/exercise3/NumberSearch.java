@@ -12,6 +12,9 @@ public class NumberSearch {
                 if (number == 690){
                     System.out.println();
                 }
+                if (number == 990){
+                    System.out.println();
+                }
                 }
             }
         }
