@@ -17,8 +17,6 @@ public class NumberSearch {
                        counter=0;
                    }
             }
-
-
         }
     }
 }
