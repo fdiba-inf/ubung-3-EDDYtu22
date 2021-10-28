@@ -5,20 +5,26 @@ public class NumberSearch {
         int number;
         int counter = 0;
         for (number=100; number<1000; number++) {
-            if (number%5==0 && number%6==0) {
-                System.out.print(number + " ");
-                counter++;
-                if (counter==10) {
-                    System.out.println(number);
-                    counter=0;
-                }
+
+            if (number % 5 == 0 && number % 6 == 0) {
+
+                   if (counter < 9) {
+                       System.out.print(number + " ");
+                       counter++;
+
+                   }else {
+                       System.out.println(number);
+                       counter=0;
+                   }
             }
+
+
         }
-
-
     }
-
 }
+
+
+
 
 
 
